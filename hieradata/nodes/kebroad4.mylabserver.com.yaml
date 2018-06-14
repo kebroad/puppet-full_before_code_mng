@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'kebroad4.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/kebroad4',
+  },
+  'kebroad4b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/kebroad4b',
+  }
+}
